@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbdbdb;
+}
+
+header{
+    background-color: #006491;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #006491;
+}
+
+nav a:hover{
+    background-color: #f7e1c1;
+    color: #006491;
+}
+
+.pizza-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pizza{
+    background-color: #ffffff;
+    border: 2px solid #006491;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    text-align: center;
+    float: left;
+    box-shadow: 5px 5px 5px #bfbfbf;
+}
+
+.pizza img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.pizza h2{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.pizza p{
+    font-size: 1.125em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.order:hover{
+background-color: #e11936;
+}
+
+footer{
+    clear: left;
+    text-align: center;
+    font-size: italic;
+    font-size: 0.6em;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6f6;
+    box-shadow: 5px 5px 5px #bfbfbf;
+}
